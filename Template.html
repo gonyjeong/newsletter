@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Digest</title>
+
+    <!-- ✅ Google Fonts: Anton 추가 -->
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+        
+        .container {
+            max-width: 680px;
+            margin: 0 auto;
+            background-color: white;
+        }
+        
+        .top-banner {
+            width: 100%;
+            height: 70px;
+            overflow: hidden;
+        }
+        
+        .top-banner img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+        }
+       
+        .header {
+            background-color: white;
+            padding: 11px;
+            border-bottom: 12px solid #000;
+        }
+        
+        .header h1 {
+            font-size: 30px;
+            font-weight: 500;
+            margin: 0;
+            color: #000;
+        }
+        
+        
+        .content-wrapper {
+            display: flex;
+            padding: 20px;
+            gap: 20px;
+        }
+        
+        .main-content {
+            flex: 2;
+        }
+
+        
+        .section-title {
+            font-size: 18px;
+            font-weight: bold;
+            color: #000;
+            margin: 20px 0 10px 0;
+            padding-bottom: 5px;
+            border-bottom: 3px solid #000;
+        }
+        
+        .featured-article {
+            margin-bottom: 30px;
+        }
+        
+        .featured-article h2 {
+            font-size: 20px;
+            color: #e74c3c;
+            margin: 0 0 10px 0;
+            font-weight: bold;
+        }
+        
+        .featured-article .excerpt {
+            color: #666;
+            line-height: 1.4;
+            margin-bottom: 10px;
+            font-family: 'Georgia', serif;
+        }
+        
+        .article-image {
+            float: right;
+            margin: 0 0 10px 15px;
+            width: 120px;
+            height: 80px;
+            background-color: #ddd;
+        }
+
+        
+        .story-item {
+            margin-bottom: 25px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .story-item h3 {
+            font-size: 16px;
+            color: #e74c3c;
+            margin: 0 0 5px 0;
+            font-weight: bold;
+        }
+        
+        .story-item .excerpt {
+            color: #666;
+            font-size: 14px;
+            font-family: 'Georgia', serif;
+            line-height: 1.4;
+        }
+                    
+        .footer {
+            text-align: center;
+            padding: 20px;
+            font-size: 12px;
+            color: #666;
+            border-top: 1px solid #eee;
+        }
+        
+        .footer a {
+            color: #0066cc;
+        }
+        
+        .bottom-banner {
+            background-color: #000;
+            color: white;
+            padding: 20px;
+            text-align: left;
+            font-size: 12px;
+        }
+        
+        .clearfix::after {
+            content: "";
+            display: table;
+            clear: both;
+
+}
+    h1 span {
+        font-size: 70px; 
+        font-family: 'Anton', sans-serif;
+        color: black; 
+
+    }
+    
+    .highlight {
+        font-size: 42px;   
+        color: red;
+    }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <!-- Top Banner -->
+        <div class="top-banner">
+            <img src="https://raw.githubusercontent.com/gonyjeong/newsletter/refs/heads/main/Top%20logo.png" alt="Bobcat Newsletter">
+        </div>
+        
+
+<!-- Header -->
+<div class="header">
+    <h1>
+        <span>DAILY DIGEST</span> 
+        <span class="highlight">GLOBAL HIGHLIGHTS</span> 
+    </h1>
+</div>
+        
+        <div class="content-wrapper">
+            <!-- Main Content -->
+            <div class="main-content">
+                <!-- Featured Section -->
+                <div class="section-title">Featured</div>
+                
+                <div class="featured-article clearfix">
+                    <div class="article-image"></div>
+                    <h2>title</h2>
+                    <div class="excerpt">
+                    </div>
+                    <p class="excerpt">
+                        summary
+                    </p>
+                </div>
+                
+                <!-- Today's Stories -->
+                <div class="section-title">Today's Stories</div>
+                
+                <div class="story-item">
+                    <h3>title</h3>
+                    <p class="excerpt">
+                        summary
+                    </p>
+                </div>
+                
+                  <div class="story-item">
+                    <h3>title</h3>
+                    <p class="excerpt">
+                        summary
+                    </p>
+                </div>
+                
+                <div class="story-item">
+                    <h3>title</h3>
+                    <p class="excerpt">
+                        summary
+                    </p>
+                </div>
+                
+                 <div class="story-item">
+                    <h3>title</h3>
+                    <p class="excerpt">
+                        summary
+                    </p>
+                </div>
+                
+                 <div class="story-item">
+                    <h3>title</h3>
+                    <p class="excerpt">
+                        summary
+                    </p>
+                </div>
+
+            </div>
+        </div>
+        
+        <!-- Footer -->
+        <div class="footer">
+            You are currently subscribed to the Bobcat's Daily Digest Newsletter<br>
+            To update your newsletter preferences, <a href="#">click here</a><br>
+            To unsubscribe, <a href="#">click here</a><br>
+        </div>
+        
+        <!-- Bottom Banner -->
+        <div class="bottom-banner">
+Bobcat®, the Bobcat logo and the colors of the Bobcat machine are registered trademarks of Bobcat Company in the United States and various other countries.</p>
+Bobcat Company 250 E Beaton Dr, West Fargo, ND 58078 </p>
+©2025 Bobcat Company. All rights reserved.
+
+
+        </div>
+    </div>
+</body>
+</html>
